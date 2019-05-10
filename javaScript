@@ -40,3 +40,11 @@ function grow(array1){
   var dosmth = array1.reduce(mulofArray);
   return dosmth;
 }
+
+//2nd Solution
+
+// const is a also a function but cannot be reassigned
+const functionName = (parameter) => 
+// => same as return 
+// basiclly this is a function inside a function
+parameter.reduce(/* this is a parameter -> */(prev, next) /* return this -> */ => prev * next);
