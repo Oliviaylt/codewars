@@ -48,3 +48,11 @@ const functionName = (parameter) =>
 // => same as return 
 // basiclly this is a function inside a function
 parameter.reduce(/* this is a parameter -> */(prev, next) /* return this -> */ => prev * next);
+
+//3 //7kyu //Ones and Zeros
+
+const binaryArrayToNumber = arr => {
+  // .toString default is convert to base 10
+  var test = parseInt(arr.join(''), 2).toString(10);
+  return test;
+};
