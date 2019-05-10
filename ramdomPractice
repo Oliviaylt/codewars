@@ -1,0 +1,16 @@
+//1  //Function declaration and Function expression
+
+declaration('top declaration');
+expression('top expression'); //return error
+
+function declaration(x){
+  return console.log(x);
+};
+
+//stored in a variable, can be used as a function, do not need function names. 
+var expression = function (x){
+  return console.log(x);
+};
+
+declaration('bottom declaration');
+expression('bottom expression');
