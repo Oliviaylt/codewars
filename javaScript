@@ -23,3 +23,20 @@ function basicOp(Op,val1,val2) {
     break;
   }
 }
+
+//2 //8kyu //Beginner - Reduce but Grow
+
+function grow(array1){ 
+ function mulofArray(prev, next) { 
+            return prev * next; 
+            //prev = 1;
+            //next = 2;
+            //prev = prev * next; //2
+            //next = 3
+            //prev = prev * next; //6
+            //next = 4
+            //prev * next = 24;
+        } 
+  var dosmth = array1.reduce(mulofArray);
+  return dosmth;
+}
