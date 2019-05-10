@@ -1,0 +1,25 @@
+//1 //8ku //Basic Mathematical Operations
+
+function basicOp(Op,val1,val2) {
+  switch (Op) {
+    case '+':
+      return val1 + val2;
+    break;
+ 
+    case '-':
+      return val1 - val2;
+    break;
+ 
+    case '*':
+      return val1 * val2;
+    break;
+    
+    case '/':
+      return val1 / val2;
+    break;
+    
+    default:
+      return 'default';
+    break;
+  }
+}
